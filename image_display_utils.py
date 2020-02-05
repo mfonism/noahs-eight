@@ -13,5 +13,5 @@ if __name__ == "__main__":
     import constants
     import utils
 
-    for image_file_path in utils.deep_iterdir(constants.UNKNOWN_FACES_PATH):
+    for image_file_path in utils.deep_iterdir(constants.THE_EIGHT_FACES_PATH):
         display_image(image_file_path)
